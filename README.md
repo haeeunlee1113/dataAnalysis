@@ -6,12 +6,14 @@ archive python codes that made for analysing broad data from public data api.
 \https://www.data.go.kr/
 
 
-* Data sample(Countries-GDP-Data.csv) which is used on anlaysis has some formal problem.
-** First, Every decimal points are written with ',' not '.'. So pandas considers their data format as string not float.
-** So I should convert them to normal float format.
-** cv_analysis.py has this part.
 
-* Libary
-- seaborn
-- pandas
-- matplotlib
++ Libary
+  * seaborn
+  *  pandas
+  *  matplotlib
+
++ Data sample(Countries-GDP-Data.csv) which is used on anlaysis has  formal problem.<br/>
+  Every decimal points are written with ',' not '.'. <br/>
+  So pandas considers their data format as string not float.
+  I should convert them to normal float format.<br/>
+  *cv_analysis.py has this part.
