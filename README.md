@@ -16,5 +16,4 @@ archive python codes that made for analysing broad data from public data api.
   Every decimal points are written with ',' not '.'. <br/>
   So pandas considers their data format as string not float.<br/>
   I should convert them to normal float format.<br/>
- 
- *cv_analysis.py has this part.
+  *cv_analysis.py has this part.*
